@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(19, 20, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform{
+    width: min(450px, 95%);
+    height: 500px;
+    border:solid 1px blue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.loginform:hover{
+    box-shadow: 0 0 100px 0px rgb(121,97,239), 0 0 4000px 20px rgb(121,97,239);
+}
+.inputgroup{
+    position: relative;
+    height: 50px;
+    width: 95%;
+}
+
+.inputgroup input{
+    position:absolute;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid 1px red;  
+    transition: all 200ms;
+    color: red;
+}
+
+.inputgroup label{
+    position: absolute;
+    
+}
+
+.inputgroup input:hover + label,
+.inputgroup input:valid + label,
+.inputgroup input:focus{
+    transform: translateY(-10px);
+    color: blue;
+}
+
+.inputgroup input:hover,
+.inputgroup input:valid,
+.inputgroup input:focus{
+        border-bottom: solid 1px blue;  
+
+}
+
+.topmargin{
+    margin-top: 50px;
+}  
+
+.divcallforaction{
+    width: 95%;
+    height: 45px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.btnlogin{
+    border:solid 1px blue;
+    width: 150px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 5px;
+}
