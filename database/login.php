@@ -8,17 +8,17 @@
 </head>
 <body>
     <div class="loginform">
-        <div class="inputgroup">
+        <div class="inputgroup topmarginlarge">
             <input type="text" id="txtUsername" required>
             <label for="txtUsername" id="lblUsername">USER NAME</label>
         </div>
 
-        <div class="inputgroup topmargin">
+        <div class="inputgroup topmarginlarge">
             <input type="password" id="txtPassword" required>
             <label for="txtPassword" id="lblPassword">PASSWORD</label>
         </div>
 
-        <div class="divcallforaction topmargin">
+        <div class="divcallforaction topmarginlarge">
             <button class="btnlogin">LOGIN</button>
         </div>
     </div>
