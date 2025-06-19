@@ -19,9 +19,11 @@
         </div>
 
         <div class="divcallforaction topmarginlarge">
-            <button class="btnlogin">LOGIN</button>
+            <button class="btnlogin inactivecolor" id="btnLogin">LOGIN</button>
         </div>
     </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/login.js"></script>
 
 </body>
 </html>
